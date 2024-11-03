@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arshad's Developer Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="about" class="about">About</a></li>
+                    <li><a href="services" class="services">Skills</a></li>
+                    <li><a href="projects" class="project">Projects</a></li>
+                    <li><a href="#" class="project">Certificates</a></li>
+                    <li><a href="contact" class="contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section">
+
+            <div class="left-section">
+                <div class="context">Hello,<br> I'm<span style="color: blueviolet;"> Arshad</span>, I am a passionate
+                </div>
+                <span id="element" style="color: blueviolet; font-size: 2rem;"></span>
+
+            </div>
+
+            <div class="right-section">
+                <!-- <img src="pngs/bg.png" alt="" class="bg"> -->
+            </div>
+        </section>
+
+        <section class="sec-section" id="about">
+
+            <div class="left2-section">
+                <img src="./pngs/pic.png" alt="photo">
+            </div>
+            <div class="right2-section">
+                <h2 style="padding-left: 1rem;">About Me</h2>
+                <br>
+                <div style="padding-left: 1.5rem;">
+                    Hi, I'm Arshad, a passionate Web Developer and second-year B.Tech student in Computer Science and
+                    Engineering. I specialize in JavaScript, building dynamic and responsive web applications using
+                    technologies like HTML5, CSS3, and Node.js.
+                    <br><br>
+                    With hands-on experience in both front-end and back-end development, I've worked on projects ranging
+                    from website clones to e-commerce platforms . I'm a problem-solver, always eager to learn,
+                    collaborate,
+                    and tackle new challenges.
+                    <br><br>
+                    Explore my portfolio to see my some of the Projects I have worked on!
+                </div>
+            </div>
+        </section>
+
+        <section class="third-section" id="services">
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS, Bootstrap, JavaScript</li>
+                    <li>SQL, MongoDB, NodeJs, Express, RESTful APIs</li>
+                    <li>Python, Java, C, C++</li>
+                    <li>Git and GitHub</li>
+                </ul>
+            </div>
+        </section>
+        <section class="fourth-section" id="project">
+            <div>
+                <h2>Projects</h2>
+                <ul>
+                    <li>Amazon, Google, Spotify Clones</li>
+                    <li>Hospital Management System - Using Java, Swing, SQL</li>
+                    <li>Weather Web Application - Using HTML, CSS, JavaScript with API integration</li>
+                </ul>
+            </div>
+        </section>
+        <section class="fourth-section" id="project">
+            <div>
+                <h2>Certificates</h2>
+                <ul>
+                    <ul>
+                        <li><button>
+                            <a href="coursera.html" target="_blank" style="text-decoration: none;">Course Era</a>
+                        </button></li>
+                        <li><button>
+                            <a href="udemy.html" target="_blank" style="text-decoration: none;">Udemy</a>
+                        </button></li>
+                        <li><button><a href="genisis.html" target="_blank" style="text-decoration: none;">Genisis 1.0</a>
+                        </button></li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+        <hr style="margin: 20px 70px;">
+        <section class="last-section" id="contact">
+
+            <div class="email" style="cursor: pointer;" id="email">arshadm1512@gmail.com</div>
+
+            <div class="git-linked">
+                <a href="https://github.com/rshd123"><i class="fa-brands fa-github github"></i></a>
+                <a href="https://www.linkedin.com/in/arshadm12/"><i class="fa-brands fa-linkedin linkedin"></i></a>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 100,
+            showCursor: false,
+        });
+    </script>
+    <script src="./index.js"><i class="fa-brands fa-linkedin"></i></script>
+</body>
+
+</html>

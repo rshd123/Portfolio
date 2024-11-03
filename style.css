@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 5, 48);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(20, 20, 66);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin:0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+a:hover {
+    color: blueviolet;
+    font-size: 1.75rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.first-section > div{
+    width:40%;
+}
+
+.left-section{
+    padding-left: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.left-section .context{
+    font-size: 1.75rem;
+}
+
+
+.right-section .bg{
+    width: 85%;
+    margin: 50px 0px;
+    border-radius: 2rem;
+}
+
+.sec-section{
+    margin: 0px 30px;
+    display: flex;
+}
+
+.sec-section img{
+    width: 20rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.third-section{
+    margin: 0px 30px;
+}
+
+.fourth-section{
+    margin: 0px 30px;
+}
+
+.last-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+.email{
+    color:blueviolet;
+}
+
+.git-linked{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.75rem;
+}
+
+
+.git-linked .github,
+.git-linked .linkedin {
+    transition: font-size 0.5s; /* Apply transition to both states */
+}
+
+.git-linked .github:hover,
+.git-linked .linkedin:hover {
+    font-size: 3rem; /* Increase size on hover */
+}
+
+/*about,services,projects */
+
+#about{
+    border: 0.2rem solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-bottom: 1rem;
+    border-color: blueviolet;
+}
+
+#services{
+    border: 0.2rem solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-bottom: 1rem;
+    border-color: blueviolet;
+}
+#services ul{
+    padding-left: 2rem;
+}
+
+#project{
+    border: 0.2rem solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-bottom: 1rem;
+    border-color: blueviolet;
+}
+
+#project ul {
+    padding-left: 2rem;
+}
