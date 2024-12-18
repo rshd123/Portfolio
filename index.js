@@ -30,4 +30,11 @@ project.addEventListener("click", function(e){
     });
 });
 
+let certificate = document.getElementsByClassName("certificate")[0];
+certificate.addEventListener("click", function(e){
+    e.preventDefault();
+    document.getElementById("certificate").scrollIntoView({
+        behavior:"smooth"
+    });
+});
 
